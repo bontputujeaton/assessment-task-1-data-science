@@ -10,4 +10,14 @@ Updated README file with help on installing necessary components.
 Edited and updated project files.
 
 #### March 11th 2026:
+Edited documentation, created update-log.md and edited the README files.
+
+#### March 13th 2026:
+
+
+
+Editing description in README file and gathering README
+
+#### March 16th 2026:
+
 
