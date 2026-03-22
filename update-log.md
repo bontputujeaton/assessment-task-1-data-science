@@ -18,3 +18,7 @@ Worked on project documentation, began researching for a API to use for the proj
 #### March 16th 2026:
 
 Editing description in README file and collected information on country API to use for the project 
+
+#### March 20th 2026    
+
+Downloaded data for country API and worked on Functional and Non-Functional requirement aspect of project documentation.
