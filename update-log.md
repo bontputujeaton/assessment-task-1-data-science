@@ -1,7 +1,7 @@
 # Update Log
 
 #### March 5th 2026:
-First Commit, README file added and Project Documentation Markdown file added
+First Commit, added a README file and added project documentation markdown file.
 
 #### March 6th 2026:
 Updated README file with help on installing necessary components.
