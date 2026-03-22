@@ -7,7 +7,7 @@ First Commit, added a README file and added project documentation markdown file.
 Began working on project documentation, updated README file with help on installing necessary components. (requirements.txt, etc)
 
 #### March 9th 2026:
-Edited and updated project files.
+Continued progress on project documentation updated project files, testing key files such as main.py and requirements.txt.
 
 #### March 11th 2026:
 Edited documentation, created update-log.md and edited the README files.
