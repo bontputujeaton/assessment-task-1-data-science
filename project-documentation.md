@@ -39,6 +39,18 @@ The system should perform systematically and swiftly to avoid any errors, breaks
     - No crashes, breaks or delays.
 - If an error occurs, the system should recover smoothly or timeout and the program must be run again. 
 
+**Reliability:** How reliable should the system as well as the data be:
+Both the system and data need to be completely reliable in order for the program to run correctly, providing correct results each interaction with the user. The system must:
+
+- Provide accurate and reliable data at all times whenever the user interacts with the system
+- Information must be consistent and the overall program should maintain dependable actions.
+- Provide a strong connection with API requests to ensure no problems arise that could interfere with reliability (for example, system crashes).
+- Prevent losing any data the user inputs or data recieved from the API during program runtime.
+
+
+
+
+
 
 ## Determining Specifications:
 
