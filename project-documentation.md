@@ -30,7 +30,9 @@ The user needs to see clear and straightforward information displaying the data 
     - region/continent where the country is located.
 
 #### Non Functional Requirements: (How the system should work):
+
 **Performance:** How well should the system perform?
+
 The system should perform systematically and swiftly to avoid any errors, breaks or delays in the program. To meet this criteria, the system must achieve:
 
 - Respond to user input with data efficiently
@@ -40,6 +42,7 @@ The system should perform systematically and swiftly to avoid any errors, breaks
 - If an error arises, the system should recover smoothly or timeout and the program must be run again. 
 
 **Reliability:** How reliable should the system as well as the data be?
+
 Both the system and data need to be completely reliable in order for the program to run correctly, providing correct results each interaction with the user. The system must:
 
 - Provide accurate and reliable data at all times whenever the user interacts with the system
@@ -48,6 +51,7 @@ Both the system and data need to be completely reliable in order for the program
 - Prevent losing any data the user inputs or data recieved from the API during program runtime.
 
 **Usability and Accessibility:** How reliable and usable should the system and data be?
+
 In order to assist a large variety of different users with different needs and technical skills, the system must be easily comprehensible and simple to operate. The system should include:
 
 - Include detailed help explanations to provide straightforward navigation.
