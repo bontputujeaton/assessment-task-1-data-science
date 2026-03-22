@@ -61,6 +61,9 @@ In order to assist a large variety of different users with different needs and t
 
 ## Determining Specifications:
 
+Verifying with Cases:
+
+Case #1: Obtaining data from the API (in this case, REST Countries API)
 
 ## Design:
 
