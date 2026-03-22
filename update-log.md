@@ -4,7 +4,7 @@
 First Commit, added a README file and added project documentation markdown file.
 
 #### March 6th 2026:
-Updated README file with help on installing necessary components.
+Began working on project documentation, updated README file with help on installing necessary components. (requirements.txt, etc)
 
 #### March 9th 2026:
 Edited and updated project files.
