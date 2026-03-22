@@ -13,5 +13,3 @@ Assessment Task 1: Data Science Project - Preliminary Software Engineering (2026
 If you do not already have the requirements.txt packages installed, install it with the following command in the terminal.
 The file 'requirements.txt' is required to for necessary packages to install to make APIs to run properly.
 Paste this command into the terminal: `pip install -r requirements.txt`
-
-
