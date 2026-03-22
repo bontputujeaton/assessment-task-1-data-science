@@ -17,17 +17,17 @@ The system should embody the text the user inputs which contains the country whi
 
 The user needs to see clear and straightforward information displaying the data they requested, in this case, the program needs to produce the country's data which includes a clarified:
 
-- Menu System
-- Information Prompt
-- Instructions to help the user if they require
-- Error Message if program fails
-- Safe exit of the program when run complete
+- Structured Menu System.
+- Information Prompt.
+- Instructions to help the user if they require.
+- Error Message if program fails.
+- Safe exit of the program when runtime complete.
 
 
-- Country Information Data:
-    - population
-    - capital city
-    - region/continent where the country is located.
+- Country Information Data, including:
+    - Population.
+    - Capital city.
+    - Region/continent where the country is located.
 
 #### Non Functional Requirements: (How the system should work):
 
@@ -35,9 +35,9 @@ The user needs to see clear and straightforward information displaying the data 
 
 The system should perform systematically and swiftly to avoid any errors, breaks or delays in the program. To meet this criteria, the system must achieve:
 
-- Respond to user input with data efficiently
+- Respond to user input with data efficiently.
     - This means recieving and sending data back to the user in approximately two to three seconds or less.
-- Able to process API requests methodically
+- Able to process API requests methodically.
     - No crashes, breaks or delays.
 - If an error arises, the system should recover smoothly or timeout and the program must be run again. 
 
@@ -45,7 +45,7 @@ The system should perform systematically and swiftly to avoid any errors, breaks
 
 Both the system and data need to be completely reliable in order for the program to run correctly, providing correct results each interaction with the user. The system must:
 
-- Provide accurate and reliable data at all times whenever the user interacts with the system
+- Provide accurate and reliable data at all times whenever the user interacts with the system.
 - Information must be consistent and the overall program should maintain dependable actions.
 - Provide a strong connection with API requests to ensure no issues arise that could interfere with reliability (for example, system crashes).
 - Prevent losing any data the user inputs or data recieved from the API during program runtime.
