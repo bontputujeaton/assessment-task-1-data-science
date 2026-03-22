@@ -22,3 +22,7 @@ Editing description in README file and collected information on country API to u
 #### March 20th 2026    
 
 Downloaded data for country API and worked on Functional and Non-Functional requirement aspect of project documentation.
+
+#### March 22nd 2026:
+
+Finalised Functional and Non Functional Requirement definitions in project documentation and beginning determining specifications.
