@@ -80,7 +80,7 @@ In order to assist a large variety of different users with different needs and t
 
 *The system will scan if the data was retrieved from the API or if there was an error, if an error is returned Error Number will be printed.*
 
-**Postconditions:**
+**Postconditions:** Either the system will retrieve the API data smoothly or an error message is sent to the user. The system will still run without breaking.
 
 ## Design:
 
