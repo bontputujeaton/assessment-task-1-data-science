@@ -63,7 +63,7 @@ In order to assist a large variety of different users with different needs and t
 
 **Verifying with Cases:**
 
-**Case #1:** Obtaining data from the API (in this case, REST Countries API)
+**Case #1: Obtaining data from the API (in this case, REST Countries API)**
 
 **Actor:** The user using the system to request the data 
 **Preconditions:** None, no API key required as it is a Free to Use API. (Only requirement may be stable Internet)
@@ -81,6 +81,12 @@ In order to assist a large variety of different users with different needs and t
 *The system will scan if the data was retrieved from the API or if there was an error, if an error is returned Error Number will be printed.*
 
 **Postconditions:** Either the system will retrieve the API data smoothly or an error message is sent to the user. The system will still run without breaking.
+
+**Case #2: Displaying data to the user.** 
+**Actor:** The user running the program.
+**Preconditions:** The data that is successfully retrieved from the API.
+
+1.
 
 ## Design:
 
