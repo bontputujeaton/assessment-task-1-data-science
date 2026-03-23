@@ -26,3 +26,8 @@ Downloaded data for country API and worked on Functional and Non-Functional requ
 #### March 22nd 2026:
 
 Finalised Functional and Non Functional Requirement definitions in project documentation and beginning determining specifications.
+
+#### March 23rd 2026:
+
+Added Use Case #1 and began the beginning of Use Case #2 in Determining Specifications in Project Documentation.
+Edited README
