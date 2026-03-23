@@ -65,12 +65,12 @@ In order to assist a large variety of different users with different needs and t
 
 #### **Case #1: Obtaining data from the API (in this case, REST Countries API)**
 
-**Actor:** The user using the system to request the data 
+**Actor:** The user using the system to request the data.
 **Preconditions:** None, no API key required as it is a Free to Use API. (Only requirement may be stable Internet)
 
-1. Input the country into the system
+1. Input the country into the system.
 
-*The user inputs a country name into the prompt. (for example Japan)*
+*The user inputs a country name into the prompt. (for example Japan.)*
 
 2. Retrieving API data.
 
@@ -80,17 +80,36 @@ In order to assist a large variety of different users with different needs and t
 
 *The system will scan if the data was retrieved from the API or if there was an error, if an error is returned an error number will be printed otherwise country data returned to the system in JSON format.*
 
-**Postconditions:** Either the system will retrieve the country data from the API smoothly or an if an error occurs (e.g country not found) a message is sent to the user. The system will still run without breaking.
+**Postconditions:** 
+- Either the system will retrieve the country data from the API smoothly.
+- If an error occurs (e.g country not found) a message is sent to the user.
+- The system stays running without breaking.
 
 #### **Case #2: Displaying data to the user.** 
 **Actor:** The user running the program.
 **Preconditions:** The data that is successfully retrieved from the API.
 
-1. Load the new data
+1. Load the new data.
 
 *The system stores the retrieved JSON data in a data dictionary.*
 
-2. Filter the data recieved
+2. Filter the data recieved.
+
+*The system will only extract the relevant information which includes:*
+- Name of country.
+- Capital city of the country.
+- Population of people in the county.
+- Region / Continent where the country is located.
+
+3. Display the data to the user
+
+*The system presents the data retrieved from the API (REST Countries API) in a readable format to the user. (Printed text for simplicity.)*
+
+**Postconditions:** 
+- Clean, filtered and relevant country data / information is displayed to the user.
+- Any unecessary data that is retrieved from the API is removed.
+- The system stays running without breaking. Maintains its responsiveness.
+
 
 
 
