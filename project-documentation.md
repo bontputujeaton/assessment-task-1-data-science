@@ -61,9 +61,9 @@ In order to assist a large variety of different users with different needs and t
 
 ## Determining Specifications:
 
-**Verifying with Cases:**
+**Verifying with Use Cases:**
 
-#### **Case #1: Obtaining data from the API (in this case, REST Countries API)**
+#### **Use Case #1: Obtaining data from the API (in this case, REST Countries API)**
 
 **Actor:** The user using the system to request the data.
 **Preconditions:** None, no API key required as it is a Free to Use API. (Only requirement may be stable Internet)
@@ -85,7 +85,7 @@ In order to assist a large variety of different users with different needs and t
 - If an error occurs (e.g country not found) a message is sent to the user.
 - The system stays running without breaking.
 
-#### **Case #2: Displaying data to the user.** 
+#### **Use Case #2: Displaying data to the user.** 
 **Actor:** The user running the program.
 **Preconditions:** The data that is successfully retrieved from the API.
 
@@ -110,10 +110,11 @@ In order to assist a large variety of different users with different needs and t
 - Any unecessary data that is retrieved from the API is removed.
 - The system stays running without breaking. Maintains its responsiveness.
 
-
-
+This program does not require a lot of tools to be able to perform properly, all that is needed is: a working device with a stable Internet Connection, most recent Python (3.11 and up), the latest version of GitHub, and requirements installed (requests and other libraries in requirements.txt)
 
 ## Design:
+
+
 
 ## Development:
 
