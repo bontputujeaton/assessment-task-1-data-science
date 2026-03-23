@@ -3,7 +3,7 @@
 ## Requirements Definition:
 ### Functional and Non-Functional Requirements:
 
-#### Functional Requirements: (What the system should do):
+### Functional Requirements: (What the system should do):
 **Data Retrieval:** What the user should be able to view throughout the program?
 
 The user needs to be able to view the data they requested from the API, in this case, specific data on the country they inputted. Additionally, the user must also see error messages if a problem in the file occurs and helpful information directing the user to use the program correctly. 
@@ -29,7 +29,7 @@ The user needs to see clear and straightforward information displaying the data 
     - Capital city.
     - Region/continent where the country is located.
 
-#### Non Functional Requirements: (How the system should work):
+### Non Functional Requirements: (How the system should work):
 
 **Performance:** How well should the system perform?
 
