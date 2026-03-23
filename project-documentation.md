@@ -61,9 +61,26 @@ In order to assist a large variety of different users with different needs and t
 
 ## Determining Specifications:
 
-Verifying with Cases:
+**Verifying with Cases:**
 
-Case #1: Obtaining data from the API (in this case, REST Countries API)
+**Case #1:** Obtaining data from the API (in this case, REST Countries API)
+
+**Actor:** The user using the system to request the data 
+**Preconditions:** None, no API key required as it is a Free to Use API. (Only requirement may be stable Internet)
+
+1. Input the country into the system
+
+*The user inputs a country name into the prompt.*
+
+2. Retrieving API data.
+
+*The system collects the input and sends it to the API to recieve data.*
+
+3. API Handling
+
+*The system will scan if the data was retrieved from the API or if there was an error, if an error is returned Error Number will be printed.*
+
+**Postconditions:**
 
 ## Design:
 
