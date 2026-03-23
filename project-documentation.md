@@ -70,17 +70,17 @@ In order to assist a large variety of different users with different needs and t
 
 1. Input the country into the system
 
-*The user inputs a country name into the prompt.*
+*The user inputs a country name into the prompt. (for example Japan)*
 
 2. Retrieving API data.
 
-*The system collects the input and sends it to the API to recieve data.*
+*The system collects the input and sends it to the API (REST Countries API) to recieve the data.*
 
 3. Handling the API data.
 
-*The system will scan if the data was retrieved from the API or if there was an error, if an error is returned Error Number will be printed.*
+*The system will scan if the data was retrieved from the API or if there was an error, if an error is returned an error number will be printed otherwise country data returned to the system in JSON format.*
 
-**Postconditions:** Either the system will retrieve the API data smoothly or an error message is sent to the user. The system will still run without breaking.
+**Postconditions:** Either the system will retrieve the country data from the API smoothly or an if an error occurs (e.g country not found) a message is sent to the user. The system will still run without breaking.
 
 #### **Case #2: Displaying data to the user.** 
 **Actor:** The user running the program.
@@ -91,6 +91,8 @@ In order to assist a large variety of different users with different needs and t
 *The system stores the retrieved JSON data in a data dictionary.*
 
 2. Filter the data recieved
+
+
 
 ## Design:
 
