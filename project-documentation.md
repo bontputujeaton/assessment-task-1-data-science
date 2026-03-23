@@ -6,7 +6,7 @@
 ### Functional Requirements: (What the system should do):
 **Data Retrieval:** What the user should be able to view throughout the program?
 
-The user needs to be able to view the data they requested from the API, in this case, specific data on the country they inputted. Additionally, the user must also see error messages if a problem in the file occurs and helpful information directing the user to use the program correctly. 
+The user needs to be able to view the data they requested from the API, in this case, specific data on the country they inputted. Additionally, the user must also see error messages if a problem in the file occurs and helpful information directing the user to use the program correctly.
 
 **User Interface:** What is required for the user to be able to properly interact with the system?
 
@@ -63,7 +63,7 @@ In order to assist a large variety of different users with different needs and t
 
 **Verifying with Cases:**
 
-**Case #1: Obtaining data from the API (in this case, REST Countries API)**
+#### **Case #1: Obtaining data from the API (in this case, REST Countries API)**
 
 **Actor:** The user using the system to request the data 
 **Preconditions:** None, no API key required as it is a Free to Use API. (Only requirement may be stable Internet)
@@ -76,17 +76,21 @@ In order to assist a large variety of different users with different needs and t
 
 *The system collects the input and sends it to the API to recieve data.*
 
-3. API Handling
+3. Handling the API data.
 
 *The system will scan if the data was retrieved from the API or if there was an error, if an error is returned Error Number will be printed.*
 
 **Postconditions:** Either the system will retrieve the API data smoothly or an error message is sent to the user. The system will still run without breaking.
 
-**Case #2: Displaying data to the user.** 
+#### **Case #2: Displaying data to the user.** 
 **Actor:** The user running the program.
 **Preconditions:** The data that is successfully retrieved from the API.
 
-1. Load Data
+1. Load the new data
+
+*The system stores the retrieved JSON data in a data dictionary.*
+
+2. Filter the data recieved
 
 ## Design:
 
