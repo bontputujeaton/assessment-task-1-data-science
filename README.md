@@ -15,3 +15,6 @@ The file 'requirements.txt' is required to for necessary packages to install to 
 Paste this command into the terminal: `pip install -r requirements.txt`
 
 **API Used:** REST Countries API 
+
+**Author:** Lumah Nyachhyon 
+https://github.com/bontputujeaton
