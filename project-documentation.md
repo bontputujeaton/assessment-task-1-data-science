@@ -86,7 +86,7 @@ In order to assist a large variety of different users with different needs and t
 **Actor:** The user running the program.
 **Preconditions:** The data that is successfully retrieved from the API.
 
-1.
+1. Load Data
 
 ## Design:
 
