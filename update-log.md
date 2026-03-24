@@ -31,3 +31,7 @@ Finalised Functional and Non Functional Requirement definitions in project docum
 
 Added Use Case #1 and began the beginning of Use Case #2 in Determining Specifications in Project Documentation.
 Edited README
+
+#### March 24th 2026:
+
+Started working on coding functions.py file and main.py file. Additionally began progress on Gantt chart and structure chart.
