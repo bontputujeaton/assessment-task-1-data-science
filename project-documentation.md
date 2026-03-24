@@ -118,11 +118,14 @@ This program does not require a lot of tools to be able to perform properly, all
 
 ## Development:
 
+
 ## Integration:
 
 
 ## Testing and Debugging:
 
+**Testing functions.py file (early stage:)**
+![functions_test.png](functions_test.png)
 
 
 ## Installation:
