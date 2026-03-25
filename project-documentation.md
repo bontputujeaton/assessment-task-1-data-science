@@ -114,6 +114,9 @@ This program does not require a lot of tools to be able to perform properly, all
 
 ## Design:
 
+### Flowchart:
+
+![Flowchart Diagram](project_flowchart.png)
 
 
 ## Development:
@@ -125,7 +128,7 @@ This program does not require a lot of tools to be able to perform properly, all
 ## Testing and Debugging:
 
 **Testing functions.py file (early stage:)**
-![functions_test.png](functions_test.png)
+![Screenshot of testing functions:](functions_test.png)
 
 
 ## Installation:
