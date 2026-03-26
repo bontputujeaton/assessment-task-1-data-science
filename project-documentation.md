@@ -134,6 +134,8 @@ This program does not require a lot of tools to be able to perform properly, all
 
 ![Data Dictionary #1 - API Response](data_dictionary_api_response.png)
 
+![Data Dictionary #2 - Program Variables](data_dictionary_program_variables.png)
+
 
 ## Testing and Debugging:
 
