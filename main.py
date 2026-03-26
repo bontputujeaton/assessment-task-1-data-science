@@ -39,5 +39,13 @@ while True:
     elif user_choice == "3":
         countryapp_help()
     
-
+    elif user_choice == "4":
+        confirm = input("Are you sure you want to exit the program? (y / n)")
+        if confirm == 'y':
+            print("Thank you for using the app! Application Made by Lumah Nyachhyon")
+            break
+        elif confirm == 'n':
+            print("Loading you back to main menu...")
+            time.sleep(3)
+            countryapp_menu()
         
