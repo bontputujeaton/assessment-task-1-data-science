@@ -88,7 +88,7 @@ def save_history(data): # Regulated wording of definition to match main file
 
     # Save the user's most recent data into a history data file that opens the file keeps existing content and adds new content to the end of the file
 
-    country_datafile = open("country_history.txt", "a")
+     with open("country_history.txt", "a") as country_datafile: # Use with instead of variable to ensure file is closed automatically and only open when saving
 
     # Convert population into a string file as the others are already strings and save other values into data file
 
