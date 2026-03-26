@@ -118,8 +118,13 @@ This program does not require a lot of tools to be able to perform properly, all
 
 ![Flowchart Diagram](project_flowchart.png)
 
+**Link** (Recommended:) https://excalidraw.com/#json=uCRXnnvVKywJIzsHfzxUX,eNwI2NfqdZ_zfUtiiwB-iQ
+
+### Structure Chart:
+
 
 ## Development:
+
 
 
 ## Integration:
@@ -129,6 +134,7 @@ This program does not require a lot of tools to be able to perform properly, all
 
 **Testing functions.py file (early stage:)**
 ![Screenshot of testing functions:](functions_test.png)
+
 
 
 ## Installation:
