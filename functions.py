@@ -44,8 +44,8 @@ def get_countrydata(country_data): # Added country_data parameter inside
             "name": data[0]["name"]["common"],
             "capital": data[0].get("capital", [""])[0],
             "population": data[0].get("population", ""),
-            "continent": data[0].get("continent", ""),
-            "flag": data[0].get("flag", {}).get("png", "")
+            "continent": data[0].get("continents", ""),
+            "flag": data[0].get("flags", {}).get("png", "")
         }
 
     except:
