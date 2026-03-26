@@ -38,7 +38,7 @@ while True:
         data_result = get_countrydata(country.lower())
 
         if data_result:
-            show_country(data_result) # this will be added as a function later
+            show_dashboard(data_result) # this will be added as a function later
             save_history(data_result) # this will also be added as a function later
         else:
             print("Couldn't find the country. That might be an API error on our end? Please try again.")
