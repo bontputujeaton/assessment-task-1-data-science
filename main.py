@@ -17,7 +17,11 @@ def countryapp_help():
     time.sleep(0.3)
     print("Enter the name of any country to recieve its information. (#1)")
     time.sleep(0.3)
-    print("You can view previous searches in 'View session history' (#2)")
+    print("You can view previous searches in 'View session history.' (#2)")
+    time.sleep(0.3)
+    print("")
+    time.sleep(0.3)
+    print("Your input history (which countries you request data for) will be saved.")
     time.sleep(0.3)
     print("For any other option, type the menu number to choose it.")
 

@@ -109,7 +109,9 @@ def view_countryhistory():
             print(datafile.read())
             print("\n")
     except:
-        print("You have no countries saved.\n")
+        print("You don't have any countries currently saved.\n")
+
+    
 
 
         
