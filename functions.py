@@ -56,7 +56,7 @@ def get_countrydata(country_data): # Added country_data parameter inside
 
 # Define display_country to display all the data stored from the API response to the user
 
-def show_countrydata(data): # Regulated wording of definition to match main file
+def show_country(data): # Regulated wording of definition to match main file
 
     print(f"\n Here's some information about", data["name"], ":")
 
@@ -84,7 +84,7 @@ def show_countrydata(data): # Regulated wording of definition to match main file
 
 # Save all the user's file data (information recieved from the API) to another file (country_history.txt)
 
-def save_countrydata(data):
+def save_history(data): # Regulated wording of definition to match main file
 
     # Save the user's most recent data into a history data file that opens the file keeps existing content and adds new content to the end of the file
 
