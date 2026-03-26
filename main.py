@@ -33,5 +33,7 @@ while True:
         else:
             print("Couldn't find the country. That might be an API error on our end? Please try again.")
 
+    elif user_choice == "2"
+        view_data_history() # function will be added later on to display data history to user
     
         
