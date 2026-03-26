@@ -26,7 +26,7 @@ def get_countrydata():
             "name": data["name"]["common"],
             "capital": data.get("capital", [""])[0],
             "population": data.get("population", ""),
-            "region": data.get("region", ""),
+            "continent": data.get("continent", ""),
             "flag": data.get("flag", {}).get("png", "")
         }
 
@@ -35,7 +35,7 @@ def get_countrydata():
 
 
 # Define display_country to display all the data stored from the API response to the user
-def show_countrydata():
+def show_countrydata(data):
     print(f"\n Here's some information about", data["name"], ":")
     print("Country Name:", data["name"])
     time.sleep(0.5)
@@ -43,7 +43,7 @@ def show_countrydata():
     time.sleep(0.3)
     print("Population:", data["population"])
     time.sleep(0.3)
-    print("Region:", data["region"])
+    print("Continent:", data["continent"])
     time.sleep(0.3)
     print("Flag:", data["flag"])
     time.sleep(0.1)
@@ -51,8 +51,14 @@ def show_countrydata():
 
 # Save all the user's file data (information recieved from the API) to another file (country_history.txt)
 
-def save_countrydata():
-    with open
+def save_countrydata(data):
+    # Save the user's most recent data into a history data file that opens the file keeps existing content and adds new content to the end of the file
+    country_datafile = open("country_history.txt", "a")
+    # Convert population into a string file as the others are already strings and save other values into data file
+    country_datafile.write(data["name"] + " " + data["capital"] + " " + str(data["population"]) + " " + data["continent"] + "\n")
+
+
+
 
 
         
