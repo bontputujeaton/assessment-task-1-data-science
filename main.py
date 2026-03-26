@@ -29,7 +29,7 @@ def countryapp_help():
 
 while True:
     countryapp_menu()
-    user_choice = input("What would you like to do?")
+    user_choice = input("What would you like to do? ")
 
     if user_choice == "1":
         time.sleep(1)
