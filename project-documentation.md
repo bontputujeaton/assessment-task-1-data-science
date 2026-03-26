@@ -123,6 +123,9 @@ This program does not require a lot of tools to be able to perform properly, all
 ### Structure Chart:
 
 
+![Structure Chart Diagram](structure_chart.png)
+
+
 ## Development:
 
 
