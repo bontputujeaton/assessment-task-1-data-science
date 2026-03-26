@@ -47,6 +47,8 @@ def get_countrydata(country_data): # Added country_data parameter inside
             "continent": data[0].get("continents", ""),
             "flag": data[0].get("flags", {}).get("png", "")
         }
+    
+        return None # Added return None if 200 response code is unsucessful (issue with program)
 
     except:
         return None
