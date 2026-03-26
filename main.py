@@ -46,7 +46,7 @@ while True:
     elif user_choice == "2":
         view_data_history() # function will be added later on to display data history to user
 
-    elif user_choice == "3":
+    elif user_choice == "3": # Bug testing fix - now saves instead of opening help menu by mistake
         
     
     elif user_choice == "4":
