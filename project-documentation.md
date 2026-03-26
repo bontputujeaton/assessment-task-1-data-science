@@ -130,9 +130,9 @@ This program does not require a lot of tools to be able to perform properly, all
 
 ![Gantt Chart]()
 
-### Data Dictionary:
+### Data Dictionaries:
 
-![]()
+![Data Dictionary #1 - API Response](data_dictionary_api_response.png)
 
 
 ## Testing and Debugging:
