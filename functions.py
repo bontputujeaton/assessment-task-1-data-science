@@ -48,7 +48,7 @@ def get_countrydata(country_data): # Added country_data parameter inside
             "flag": data[0].get("flags", {}).get("png", "")
         }
     
-        return None # Added return None if 200 response code is unsucessful (issue with program)
+        return None # Test #3 Added return None if 200 response code is unsucessful (issue with program)
 
     except:
         return None
@@ -56,7 +56,7 @@ def get_countrydata(country_data): # Added country_data parameter inside
 
 # Define display_country to display all the data stored from the API response to the user
 
-def show_countrydata(data):
+def show_countrydata(data): # Regulated wording of definition to match main file
 
     print(f"\n Here's some information about", data["name"], ":")
 
