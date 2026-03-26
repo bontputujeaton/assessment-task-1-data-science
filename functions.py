@@ -92,7 +92,11 @@ def save_history(data): # Regulated wording of definition to match main file
 
     # Convert population into a string file as the others are already strings and save other values into data file
 
-    country_datafile.write(data["name"] + " " + data["capital"] + " " + str(data["population"]) + " " + data["continent"] + "\n")
+        country_datafile.write(
+            data["name"] + " " + 
+            data["capital"] + " " + 
+            str(data["population"]) + " " + 
+            data["continent"] + "\n")
 
 # View history of each country the user has inputted previously
 
