@@ -1,4 +1,6 @@
 import requests
+import pandas
+import matplotlib
 
 country_data = input("Enter a country you would like to view information on: ") # enter country here prompt 
 
