@@ -133,7 +133,7 @@ This program does not require a lot of tools to be able to perform properly, all
 
 ### Gantt Chart:
 
-![Gantt Chart:]()
+![Gantt Chart:](gantt.png)
 
 ### Data Dictionaries:
 
@@ -147,9 +147,26 @@ This program does not require a lot of tools to be able to perform properly, all
 **Testing functions.py file (early stage:)**
 ![Screenshot of testing functions:](functions_test.png)
 
-**First finished attempt: There were numerous bugs and issues with my code.****
+**First finished attempt: There were numerous bugs and issues with my code.**
 
+
+#### Bug Fixes
+
+*Many Bug Fixes shown in GitHub commits*
+
+![Screenshot of Bug Fixes #1:](bugfix1.png)
+![Screenshot of Bug Fixes #2:](bugfix2.png)
+
+**Most prominent error:**
+![keyboardInterrupt error:](error.png)
+
+**This error can simply be solved by rerunning the command:**
+
+![Error Fix:](error_fix.png)
+
+It will only show up once. After rerunning the command the error will disappear until the entire file is run again.
 
 ## Maintenence:
 
+After final development the system is entirely functional, without any errors or breaks. Easy navigation is ensured for all users, API requests are functional where data is recieved from the API and displayed in the text-based program, and dashboard visualisations all run properly. Data saving and loading is another implemented option, where the user can view the countries they've previously viewed in a seperate file along with their statistics such as population and capital city. Users can exit the program without the system crashing and most errors are also fixed. Maintenance is a large factor when creating a project because without constant updates, the system will not be able to function properly and will not be useful for users. One thing which I would add and improve on in the future would be to change the text based terminal into a GUI (graphic user interface) to make the program more appealing to users. Another thing to improve on is organising the code as there are many unnecessary functions, variables, and blocks that I thought I would need but due time constraints couldn't complete. However, the project turned out well and successful.
 
