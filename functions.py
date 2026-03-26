@@ -22,7 +22,7 @@ from datetime import datetime
 
 # Retrieve country data from the API. This includes the API link where the data is collected from
 
-def get_countrydata(): 
+def get_countrydata(country_data): # Added country_data parameter inside
 
     # api link where data is retrieved
 
@@ -37,11 +37,8 @@ def get_countrydata():
 
         # if response code = 200 data is successfully collected.
 
-        if response.status_code == 200: 
-            return None
-        
-
-        data = response.json()
+        if response.status_code == 200: # Removed return None otherwise program would not run
+            data = response.json()
 
         return {
             "name": data["name"]["common"],
