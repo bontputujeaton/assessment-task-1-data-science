@@ -19,7 +19,7 @@ def countryapp_help():
     time.sleep(0.3)
     print("You can view previous searches in 'View session history.' (#2)")
     time.sleep(0.3)
-    print("")
+    print("Information about your chosen country includes name, capital city, population, region / continent, and flag.")
     time.sleep(0.3)
     print("Your input history (which countries you request data for) will be saved.")
     time.sleep(0.3)
