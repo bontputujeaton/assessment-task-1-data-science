@@ -53,33 +53,30 @@ def get_countrydata(country_data): # Added country_data parameter inside
         return None
 
 
-# Define display_country to display all the data stored from the API response to the user
+# Define show_dashboard function to display all the data stored from the API response to the user in a dashboard
 
-def show_country(data): # Regulated wording of definition to match main file
-
-    print(f"\n Here's some information about", data["name"], ":") # Print information to user here
-
-    print("Country Name:", data["name"]) # country name
-
-    time.sleep(0.5) # pause 0.5 seconds before continuing
-
-    print("Capital:", data["capital"]) # capital city of the country
-
-    time.sleep(0.3) # pause 0.5 seconds before continuing
-
-    print("Population:", data["population"]) # current population of the country
-
-    time.sleep(0.3) # pause 0.5 seconds before continuing
-
-    print("Continent:", data["continent"]) # continent / region of country
-
-    time.sleep(0.3) # pause 0.5 seconds before continuing
-
-    print("Flag:", data["flag"]) # emoji of country flag
-
-    time.sleep(0.1) # pause 0.1 second before continuing
-
-    print("\n")
+def show_dashboard(data): # VISUALISATION
+    name = data["name"] # extract name  
+    capital = data["capital"] # extract capital
+    population = data["population"] # extract population
+    continent = data["continent"] # extact continent / region
+    flag = data["flag"] # extract the country's flag as an emoji / icon
+ 
+    # Population size label puts each country into a category depending on the amount of people
+    if population >= 100_000_000: # If population is 100 million or more labelled as a large country
+        size_label = "Large"
+    elif population >= 10_000_000: #If population is 10 million or more labelled as a medium size country
+        size_label = "Medium"
+    else:
+        size_label = "Small" # If population is 10 million or more labelled as a small country
+ 
+    print("\n" + "=" * 50) # Print the border / divider line using '=' 
+    print(f"  {flag}  COUNTRY DASHBOARD: {name.upper()}")
+    print("=" * 50)
+    print(f"  Capital City    : {capital}") # print capital city
+    print(f"  Continent / Region  : {continent}") # print continent / region
+    print(f"  Population : {population:,} ({size_label})") # print population
+    print("=" * 50 + "\n") # Print the border / divider using = underneath at the bottom
 
 # Save all the user's file data (information recieved from the API) to another file (country_history.txt)
 
