@@ -47,10 +47,10 @@ while True:
         view_data_history() # function will be added later on to display data history to user
 
     elif user_choice == "3":
-        countryapp_help()
+        
     
     elif user_choice == "4":
-        
+        countryapp_help()
 
     elif user_choice == "5":
         confirm = input("Are you sure you want to exit the program? (y / n)")
