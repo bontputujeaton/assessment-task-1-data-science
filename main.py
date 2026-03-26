@@ -5,7 +5,7 @@ from functions import *
 def countryapp_menu():
     print("Welcome to the Country Data Generator!")
     print("In this application you can view data on any city in the world.")
-    time.sleep(5)
+    time.sleep(3)
     print("1. Search for a country's details")
     print("2. View the session history")
     print("3. Save session to the file")
