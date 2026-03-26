@@ -64,11 +64,11 @@ def show_dashboard(data): # VISUALISATION
  
     # Population size label puts each country into a category depending on the amount of people
     if population >= 100_000_000: # If population is 100 million or more labelled as a large country
-        size_label = "Large"
+        size_label = "Large sized Country"
     elif population >= 10_000_000: #If population is 10 million or more labelled as a medium size country
-        size_label = "Medium"
+        size_label = "Medium sized Country"
     else:
-        size_label = "Small" # If population is 10 million or more labelled as a small country
+        size_label = "Small sized Country" # If population is 10 million or more labelled as a small country
  
     print("\n" + "=" * 50) # Print the border / divider line using '=' 
     print(f"  {flag}  COUNTRY DASHBOARD: {name.upper()}")
