@@ -100,7 +100,7 @@ def save_history(data): # Regulated wording of definition to match main file
 
 # View history of each country the user has inputted previously
 
-def view_countryhistory():
+def view_data_history():
 
     # Another try statement implemented as the program would crash without it and view_countryhistory file can be created on the first user interaction with the program.
 
