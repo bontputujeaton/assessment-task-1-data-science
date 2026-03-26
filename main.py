@@ -66,8 +66,7 @@ while True:
         elif confirm == 'n':
             print("Loading you back to main menu...")
             time.sleep(3)
-            countryapp_menu()
-
+            
         else:
             print("Invalid option. Please select an option (1-5.)")
         
