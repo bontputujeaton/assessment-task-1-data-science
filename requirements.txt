@@ -1,3 +1,4 @@
+# Different libraries / dependencies used in the project
 requests
 pandas
 matplotlib
