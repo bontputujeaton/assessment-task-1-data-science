@@ -1,4 +1,6 @@
 # put input prompts and print prompts here from functions.py
+# Test run 4 import time module into main.py
+import time
 from functions import * 
 # import everything from functions.py into main.py
 
