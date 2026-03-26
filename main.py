@@ -47,6 +47,12 @@ while True:
         view_data_history() # function will be added later on to display data history to user
 
     elif user_choice == "3": # Bug testing fix - now saves instead of opening help menu by mistake
+
+        ask_save_history = input("Are you sure you want to save your session? (y / n) ")
+        if ask_save_history == "y":
+            print("Your session has already been automatically saved after each search!")
+        else:
+            print("Returning to the main menu...")
         
     
     elif user_choice == "4":
@@ -63,5 +69,5 @@ while True:
             countryapp_menu()
 
         else:
-            print("Invalid option. Please select an option (1-4.)")
+            print("Invalid option. Please select an option (1-5.)")
         
