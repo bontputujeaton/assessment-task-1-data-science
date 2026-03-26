@@ -39,13 +39,12 @@ def get_countrydata(country_data): # Added country_data parameter inside
 
         if response.status_code == 200: # Removed return None otherwise program would not run
             data = response.json()
-
-        return { # Test #2 added [0] to each value so the API can return the list
-            "name": data[0]["name"]["common"],
-            "capital": data[0].get("capital", [""])[0],
-            "population": data[0].get("population", ""),
-            "continent": data[0].get("continents", ""),
-            "flag": data[0].get("flags", {}).get("png", "")
+            return { # Test #2 added [0] to each value so the API can return the list
+                "name": data[0]["name"]["common"],
+                "capital": data[0].get("capital", [""])[0],
+                "population": data[0].get("population", ""),
+                "continent": data[0].get("continents", [""])[0],
+                "flag": data[0].get("flags", {}).get("png", "")
         }
     
         return None # Test #3 Added return None if 200 response code is unsucessful (issue with program)
@@ -99,14 +98,11 @@ def save_history(data): # Regulated wording of definition to match main file
             data["continent"] + "\n")
 
 # View history of each country the user has inputted previously
+# Another try statement implemented as the program would crash without it and view_countryhistory file can be created on the first user interaction with the program.
+# "r" added to indicate file will be opened for reading by the user, new variable added ('as datafile')
 
 def view_data_history():
-
-    # Another try statement implemented as the program would crash without it and view_countryhistory file can be created on the first user interaction with the program.
-
     try:
-
-        # "r" added to indicate file will be opened for reading by the user, new variable added ('as datafile')
         with open("country_history.txt", "r") as datafile:
             print("\nUser History:")
             print(datafile.read())
