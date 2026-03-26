@@ -126,11 +126,13 @@ This program does not require a lot of tools to be able to perform properly, all
 ![Structure Chart Diagram](structure_chart.png)
 
 
-## Development:
+### Gantt Chart:
 
+![Gantt Chart]()
 
+### Data Dictionary:
 
-## Integration:
+![]()
 
 
 ## Testing and Debugging:
@@ -138,10 +140,7 @@ This program does not require a lot of tools to be able to perform properly, all
 **Testing functions.py file (early stage:)**
 ![Screenshot of testing functions:](functions_test.png)
 
-
-
-## Installation:
-
+**First finished attempt: There were numerous bugs and issues with my code.****
 
 
 ## Maintenence:
