@@ -14,8 +14,11 @@ def countryapp_menu():
 
 def countryapp_help():
     print("USER HELP")
+    time.sleep(0.3)
     print("Enter the name of any country to recieve its information. (#1)")
+    time.sleep(0.3)
     print("You can view previous searches in 'View session history' (#2)")
+    time.sleep(0.3)
     print("For any other option, type the menu number to choose it.")
 
 while True:
@@ -23,6 +26,7 @@ while True:
     user_choice = input("What would you like to do?")
 
     if user_choice == "1":
+        time.sleep(1)
         country = input("Enter the name of a country: ")
         
         data_result = get_country_data(country.lower())
@@ -48,4 +52,7 @@ while True:
             print("Loading you back to main menu...")
             time.sleep(3)
             countryapp_menu()
+
+        else:
+            print("Invalid option. Please select an option (1-4.)")
         
