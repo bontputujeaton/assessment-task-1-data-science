@@ -99,9 +99,17 @@ def save_countrydata(data):
 
 def view_countryhistory():
 
-    # Another try statement implemented
-    
-    try
+    # Another try statement implemented as the program would crash without it and view_countryhistory file can be created on the first user interaction with the program.
+
+    try:
+
+        # "r" added to indicate file will be opened for reading by the user, new variable added ('as datafile')
+        with open("country_history.txt", "r") as datafile:
+            print("\nUser History:")
+            print(datafile.read())
+            print("\n")
+    except:
+        print("You have no countries saved.\n")
 
 
         
