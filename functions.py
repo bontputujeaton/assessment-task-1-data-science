@@ -18,10 +18,10 @@ def get_country_data(): # Retrieve country data from the API. This includes the 
 
         return {
             "name": data["name"]["common"],
-            "capital": data.get("capital", ["N/A"])[0],
-            "population": data.get("population", "N/A"),
-            "region": data.get("region", "N/A"),
-            "flag": data.get("flags", {}).get("png", "N/A")
+            "capital": data.get("capital", [""])[0],
+            "population": data.get("population", ""),
+            "region": data.get("region", ""),
+            "flag": data.get("flags", {}).get("png", "")
         }
 
     except:
