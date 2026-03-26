@@ -5,9 +5,9 @@ from functions import *
 # import everything from functions.py into main.py
 
 def countryapp_menu():
-    print("Welcome to the Country Data Generator!")
+    print("\n MENU")
+    print("Welcome to the Countries Around the World App!")
     print("In this application you can view data on any city in the world.")
-    time.sleep(3)
     print("1. Search for a country's details")
     print("2. View the session history")
     print("3. Save session to the file")
@@ -66,7 +66,7 @@ while True:
         elif confirm == 'n':
             print("Loading you back to main menu...")
             time.sleep(3)
-            
+
         else:
             print("Invalid option. Please select an option (1-5.)")
         
