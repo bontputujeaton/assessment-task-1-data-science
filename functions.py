@@ -44,7 +44,7 @@ def get_countrydata(country_data): # Added country_data parameter inside
                 "capital": data[0].get("capital", [""])[0],
                 "population": data[0].get("population", ""),
                 "continent": data[0].get("continents", [""])[0],
-                "flag": data[0].get("flags", {}).get("png", "")
+                "flag": data[0].get("flag", "")
         }
     
         return None # Test #3 Added return None if 200 response code is unsucessful (issue with program)
@@ -57,27 +57,27 @@ def get_countrydata(country_data): # Added country_data parameter inside
 
 def show_country(data): # Regulated wording of definition to match main file
 
-    print(f"\n Here's some information about", data["name"], ":")
+    print(f"\n Here's some information about", data["name"], ":") # Print information to user here
 
-    print("Country Name:", data["name"])
+    print("Country Name:", data["name"]) # country name
 
-    time.sleep(0.5)
+    time.sleep(0.5) # pause 0.5 seconds before continuing
 
-    print("Capital:", data["capital"])
+    print("Capital:", data["capital"]) # capital city of the country
 
-    time.sleep(0.3)
+    time.sleep(0.3) # pause 0.5 seconds before continuing
 
-    print("Population:", data["population"])
+    print("Population:", data["population"]) # current population of the country
 
-    time.sleep(0.3)
+    time.sleep(0.3) # pause 0.5 seconds before continuing
 
-    print("Continent:", data["continent"])
+    print("Continent:", data["continent"]) # continent / region of country
 
-    time.sleep(0.3)
+    time.sleep(0.3) # pause 0.5 seconds before continuing
 
-    print("Flag:", data["flag"])
+    print("Flag:", data["flag"]) # emoji of country flag
 
-    time.sleep(0.1)
+    time.sleep(0.1) # pause 0.1 second before continuing
 
     print("\n")
 
@@ -98,17 +98,19 @@ def save_history(data): # Regulated wording of definition to match main file
             data["continent"] + "\n")
 
 # View history of each country the user has inputted previously
+
 # Another try statement implemented as the program would crash without it and view_countryhistory file can be created on the first user interaction with the program.
+
 # "r" added to indicate file will be opened for reading by the user, new variable added ('as datafile')
 
-def view_data_history():
+def view_data_history(): 
     try:
-        with open("country_history.txt", "r") as datafile:
+        with open("country_history.txt", "r") as datafile: # open the file
             print("\nUser History:")
             print(datafile.read())
             print("\n")
     except:
-        print("You don't have any countries currently saved.\n")
+        print("You don't have any countries currently saved.\n") # notifies the user if they haven't inputted any countries yet
 
     
 
