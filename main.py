@@ -29,7 +29,7 @@ while True:
         time.sleep(1)
         country = input("Enter the name of a country: ")
         
-        data_result = get_country_data(country.lower())
+        data_result = get_countrydata(country.lower())
 
         if data_result:
             show_country(data_result) # this will be added as a function later
