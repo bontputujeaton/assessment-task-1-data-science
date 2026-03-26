@@ -10,7 +10,7 @@ import pandas
 
 # Matplotlib for visualisation (may not be needed in final product)
 
-import matplotlib
+import matplotlib # may not need for my program
 
 # Standard python time module
 
