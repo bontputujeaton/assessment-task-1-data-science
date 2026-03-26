@@ -40,12 +40,12 @@ def get_countrydata(country_data): # Added country_data parameter inside
         if response.status_code == 200: # Removed return None otherwise program would not run
             data = response.json()
 
-        return {
-            "name": data["name"]["common"],
-            "capital": data.get("capital", [""])[0],
-            "population": data.get("population", ""),
-            "continent": data.get("continent", ""),
-            "flag": data.get("flag", {}).get("png", "")
+        return { # Test #2 added [0] to each value so the API can return the list
+            "name": data[0]["name"]["common"],
+            "capital": data[0].get("capital", [""])[0],
+            "population": data[0].get("population", ""),
+            "continent": data[0].get("continent", ""),
+            "flag": data[0].get("flag", {}).get("png", "")
         }
 
     except:
