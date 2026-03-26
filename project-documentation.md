@@ -114,21 +114,26 @@ This program does not require a lot of tools to be able to perform properly, all
 
 ## Design:
 
+### Pseudocode:
+
+![Pseudocode for Functions:](pseudocode.png)
+
 ### Flowchart:
 
-![Flowchart Diagram](project_flowchart.png)
+![Flowchart Diagram:](project_flowchart.png)
 
 **Link** (Recommended:) https://excalidraw.com/#json=uCRXnnvVKywJIzsHfzxUX,eNwI2NfqdZ_zfUtiiwB-iQ
 
 ### Structure Chart:
 
 
-![Structure Chart Diagram](structure_chart.png)
+![Structure Chart Diagram:](structure_chart.png)
 
+**Link** (Recommended:) https://excalidraw.com/#json=I_JS4GMQC4KHDIVHOpue7,KwkbLEOZPCde-dRfk2FduQ
 
 ### Gantt Chart:
 
-![Gantt Chart]()
+![Gantt Chart:]()
 
 ### Data Dictionaries:
 
@@ -146,3 +151,5 @@ This program does not require a lot of tools to be able to perform properly, all
 
 
 ## Maintenence:
+
+
